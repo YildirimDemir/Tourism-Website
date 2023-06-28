@@ -219,3 +219,190 @@ form textarea::placeholder{
     color: #fff;
     border: none;
 }
+
+/* =======Main-Page-Content======= */
+
+.main-page-content{
+    width: 100%;
+    height: auto;
+}
+
+.main-page-content h1{
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main-page-content .op-main-page{
+   width: 100%;
+   height: auto;
+}
+
+.op-main-page .tour-main-entrance{ /*COPY PASTE=====*/
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.2)url(img/tour-mp-bg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour-main-entrance h3{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.tour-main-entrance p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+
+.op-main-contents{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.op-main-contents .main-img-box{
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-text-box{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #fff, #00f6fe59);
+}
+
+.main-text-box h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.main-text-box ul li {
+   margin-top: 20px;
+   list-style:square;
+   font-size: 1.3rem;
+   color: #005238;
+}
+
+.op-main-page .events-main-entrance{ 
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.2)url(img/main-pg-bg-events.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.events-main-entrance h3{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.events-main-entrance p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+
+.op-main-page .accomoddation-main-entrance{ 
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.4)url(img/main-bg-accommodation.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accomoddation-main-entrance h3{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.accomoddation-main-entrance p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
+
+.op-main-page .transport-main-entrance{ 
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.3)url(img/main-bg-transport.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.transport-main-entrance h3{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 800;
+}
+
+.transport-main-entrance p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 50%;
+    text-align: center;
+}
