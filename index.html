@@ -67,11 +67,73 @@
       </nav>
 
 
+      <header>
+        <div class="header-content">
+          <h2>Get Information Now</h2>
+          <form action="#">
+            <input type="text" class="required" placeholder="Full Name...">
+            <input type="email" class="required" placeholder="Email...">
+            <input type="tel" class="required" placeholder="Phone Number...">
+            <select id="why">
+              <option value="Your Interest" selected>Your Interest ?</option>
+              <option value="Seeing New Places">Seeing New Places</option>
+              <option value="Holiday">Holiday</option>
+              <option value="Types of Tours">Types of Tours</option>
+              <option value="Business Trip">Business Trip</option>
+            </select>
+            <select id="Country">
+              <option value="select" selected>Country</option>
+              <option value="tr">Turkey</option>
+              <option value="france">France</option>
+              <option value="uk">UK</option>
+              <option value="spain">Spain</option>
+              <option value="usa">USA</option>
+              <option value="cnd">Canada</option>
+              <option value="russia">Russia</option>
+              <option value="egypt">Egypt</option>
+              <option value="japan">Japan</option>
+              <option value="maldives">Maldives</option>
+              <option value="world tour">World Tour</option>
+            </select>
+            <select id="budget">
+              <option value="budget" selected>Budget</option>
+              <option value="#">$100-500</option>
+              <option value="#">$500-1000</option>
+              <option value="#">$1000-2000</option>
+              <option value="#">$2000-5000</option>
+              <option value="#">$5000+</option>
+            </select>
+            <textarea placeholder="Anything Else?"></textarea>
+            <!-- <button type="submit" class="showModal">Submit Form</button> -->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
 
-
-
-
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="10" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Your Form Has Been Submitted 😎</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The form you filled in has reached us,
+             it will be examined as soon as possible 
+             and you will be provided with a suitable 
+             response. goodbye until we meet 😀
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </form>
+        </div>
+      </header>
+      
 
 
       <footer class="text-center text-lg-start text-muted">
