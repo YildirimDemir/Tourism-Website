@@ -1,0 +1,66 @@
+.content-detay
+{
+    width: 100%;
+    height: 400vh;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.detay-img-1
+{
+    background-image: url(/img/otel_1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.detay-img-2
+{
+    background-image: url(/img/otel_1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.detay-img-3
+{
+    background-image: url(/img/otel_1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.detay-img-4
+{
+    background-image: url(/img/otel_1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.detay-img-5
+{
+    background-image: url(/img/otel_1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+}
+.detay-hour-img
+{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/img/otel_2.jpg);
+}
+.detay-f1-img
+{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/img/otel_2.jpg);
+}
+.detay-f2-img
+{
+    width: 100%;
+    height: 45vh;
+    background-image: url(/img/otel_3.jpg);
+}
