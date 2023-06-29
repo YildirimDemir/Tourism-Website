@@ -406,3 +406,63 @@ form textarea::placeholder{
     width: 50%;
     text-align: center;
 }
+
+@media(max-width:1000px){
+    header .header-content{
+        width: 80%;
+    }
+
+    .main-img-box{
+        display: none;
+    }
+    .main-text-box{
+        width: 100%;
+    }
+}
+
+@media(max-width: 620px){
+   .op-main-page h3{
+    font-size: 2rem;
+    text-align: center;
+   }
+   .op-main-page p{
+    font-size: 1.2rem;
+    text-align: center;
+   }
+
+   .op-main-page ul li{
+    font-size: 1rem;
+    list-style: none;
+   }
+}
+
+@media(max-width:500px){
+    form input{
+        width: 100%;
+        font-size: .8rem;
+    }
+    form select{
+        width: 100%;
+        font-size: .8rem;
+    }
+    form textarea{
+        width: 100%;
+        font-size: .8rem;
+    }
+    form .btn{
+        width: 100%;
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:300px){
+    .op-main-page h3{
+        font-size: 1.2rem;
+    }
+    .op-main-page p{
+        font-size: .8rem;
+    }
+    .op-main-page ul li{
+        font-size: .8rem;
+    }
+}
