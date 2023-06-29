@@ -17,12 +17,12 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">TITAN TOURISM</a>
           <ul class="navbar-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">Tours</a></li>
             <li><a href="#">Events</a></li>
-            <li><a href="#">Accomodation</a></li>
+            <li><a href="accomodation.html">Accomodation</a></li>
             <li><a href="#">Transport</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/contactus.html">Contact Us</a></li>
             <li><a href="#">About Us</a></li>
           </ul>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tours</a>
@@ -45,13 +45,13 @@
                     <a class="nav-link" href="#">Events</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Accomodation</a>
+                    <a class="nav-link" href="/accomodation.html">Accomodation</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Transport</a>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="/contactus.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
@@ -67,11 +67,166 @@
       </nav>
 
 
+      <header>
+        <div class="header-content" data-aos="zoom-in-right">
+          <h2>Get Information Now</h2>
+          <form action="#">
+            <input type="text" class="required" placeholder="Full Name...">
+            <input type="email" class="required" placeholder="Email...">
+            <input type="tel" class="required" placeholder="Phone Number...">
+            <select id="why">
+              <option value="Your Interest" selected>Your Interest ?</option>
+              <option value="Seeing New Places">Seeing New Places</option>
+              <option value="Holiday">Holiday</option>
+              <option value="Types of Tours">Types of Tours</option>
+              <option value="Business Trip">Business Trip</option>
+            </select>
+            <select id="Country">
+              <option value="select" selected>Country</option>
+              <option value="tr">Turkey</option>
+              <option value="france">France</option>
+              <option value="uk">UK</option>
+              <option value="spain">Spain</option>
+              <option value="usa">USA</option>
+              <option value="cnd">Canada</option>
+              <option value="russia">Russia</option>
+              <option value="egypt">Egypt</option>
+              <option value="japan">Japan</option>
+              <option value="maldives">Maldives</option>
+              <option value="world tour">World Tour</option>
+            </select>
+            <select id="budget">
+              <option value="budget" selected>Budget</option>
+              <option value="#">$100-500</option>
+              <option value="#">$500-1000</option>
+              <option value="#">$1000-2000</option>
+              <option value="#">$2000-5000</option>
+              <option value="#">$5000+</option>
+            </select>
+            <textarea placeholder="Anything Else?"></textarea>
+            <!-- <button type="submit" class="showModal">Submit Form</button> -->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="10" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Your Form Has Been Submitted 😎</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        The form you filled in has reached us,
+             it will be examined as soon as possible 
+             and you will be provided with a suitable 
+             response. goodbye until we meet 😀
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </form>
+        </div>
+      </header>
 
 
+      <section class="main-page-content">
+        <h1 data-aos="zoom-in-right">What Opportunities We Offer</h1>
+        <div class="op-main-page">
+          <div class="tour-main-entrance" data-aos="fade-up">
+            <h3>TOURS</h3>
+            <p>Benefit from different transportation routes,
+              different types of accommodation and all kinds 
+              of tour opportunities.</p>
+          </div>
+          <div class="op-main-contents">
+            <div class="main-img-box" data-aos="fade-right">
+              <img src="img/tour-bg-main-content.jpeg">
+            </div>
+            <div class="main-text-box" data-aos="fade-left">
+              <h3>About Our Tours</h3>
+              <ul>
+                <li>We provide great convenience in transportation</li>
+                <li>Our food and beverage opportunities are wide</li>
+                <li>The best accommodation according to the tour you choose</li>
+                <li>Benefit from guides who know your destination well</li>
+                <li>Various activities during the tour</li>
+                <li>Possibility to go home immediately in case of emergency or upon request</li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="events-main-entrance" data-aos="fade-up">
+            <h3>EVENTS</h3>
+            <p>Enjoy a variety of fun activities in all our programs</p>
+          </div>
+          <div class="op-main-contents">
+            <div class="main-img-box" data-aos="fade-right">
+              <img src="img/event-pg.jpeg">
+            </div>
+            <div class="main-text-box" data-aos="fade-left"> 
+              <h3>About Our Events</h3>
+              <ul>
+                <li>Collective sporting events</li>
+                <li>Evening strolls</li>
+                <li>Cinema programs</li>
+                <li>Various entertainment venues</li>
+                <li>Opportunity to see historical places</li>
+                <li>Opportunity to participate in various competitions</li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="accomoddation-main-entrance" data-aos="fade-up">
+            <h3>ACCOMODATION</h3>
+            <p>Stay in the best conditions for the duration of the program</p>
+          </div>
+          <div class="op-main-contents">
+            <div class="main-img-box" data-aos="fade-right">
+              <img src="img/main-accom-img.jpeg">
+            </div>
+            <div class="main-text-box" data-aos="fade-left">
+              <h3>Information About Accommodation</h3>
+              <ul>
+                <li>At least 4-star venues</li>
+                <li>All-round interest in accommodation</li>
+                <li>Delivery by private vehicle to your accommodation</li>
+                <li>Full of reliable staff</li>
+                <li>Must-have event space inside</li>
+                <li>We provide gym and private fitness instructor</li>
+              </ul>
+            </div>
+          </div>
 
+          <div class="transport-main-entrance" data-aos="fade-up"> 
+            <h3>TRANSPORT</h3>
+            <p>We provide transportation anywhere in your program</p>
+          </div>
+          <div class="op-main-contents">
+            <div class="main-img-box" data-aos="fade-right">
+              <img src="img/main-transport-img.webp">
+            </div>
+            <div class="main-text-box" data-aos="fade-left">
+              <h3>Information About Transport</h3>
+              <ul>
+                <li>We offer transportation support anywhere in the world</li>
+                <li>Conditions suitable for all budgets</li>
+                <li>Delivery by private vehicle to your accommodation</li>
+                <li>Private or public transportation options</li>
+                <li>Various transportation options</li>
+              </ul>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+      
 
 
       <footer class="text-center text-lg-start text-muted">
