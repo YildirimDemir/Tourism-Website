@@ -75,9 +75,9 @@
         <div class="header-content" data-aos="zoom-in-right">
           <h2>Get Information Now</h2>
           <form action="#">
-            <input type="text" class="required" placeholder="Full Name...">
-            <input type="email" class="required" placeholder="Email...">
-            <input type="tel" class="required" placeholder="Phone Number...">
+            <input type="text" placeholder="Full Name...">
+            <input type="email" class="modalMail" placeholder="Email...">
+            <input type="tel" placeholder="Phone Number...">
             <select id="why">
               <option value="Your Interest" selected>Your Interest ?</option>
               <option value="Seeing New Places">Seeing New Places</option>
@@ -108,34 +108,19 @@
               <option value="#">$5000+</option>
             </select>
             <textarea placeholder="Anything Else?"></textarea>
-            <!-- <button type="submit" class="showModal">Submit Form</button> -->
-            <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="10" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Your Form Has Been Submitted 😎</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        The form you filled in has reached us,
-             it will be examined as soon as possible 
-             and you will be provided with a suitable 
-             response. goodbye until we meet 😀
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+
+            <button class="showModal">Join</button>
+
+    
+          
           </form>
         </div>
+        <div class="formModal modalHidden">
+          <h1>It will be returned as soon as possible 🔜</h1>
+              <button class="closeModal">X</button>
+      </div>
+      <div class="overlay modalHidden"></div>
       </header>
 
 
