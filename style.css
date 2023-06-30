@@ -207,17 +207,62 @@ form textarea::placeholder{
     color: #fff;
 }
 
-.modal-backdrop{
-    position: relative;
+
+
+.formModal{
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 70px 70px 70px 0px;
+    z-index: 99;
 }
 
-.btn{
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    background: linear-gradient(135deg, #00a687, #009945);
+.formModal h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.overlay{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 120vh;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modalHidden{
+    display: none;
+}
+
+.showModal{
+    width: 80%;
+    margin: auto;
+    background: #fff;
     color: #fff;
+    color: #000;
     border: none;
+    outline: none;
+    height: 30px;
+    margin: 10px auto 10px auto;
+}
+
+.closeModal{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: #000;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 2rem;
 }
 
 /* =======Main-Page-Content======= */
