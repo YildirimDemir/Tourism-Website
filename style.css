@@ -224,6 +224,11 @@ form textarea::placeholder{
     z-index: 99;
 }
 
+.formModal h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
 .overlay{
     position: absolute;
     content: "";
