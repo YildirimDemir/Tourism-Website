@@ -8,7 +8,7 @@
 }
 
 .otel_img {
-    background-image:url(/img/otel_1.jpg);
+    background-image:url(/img/accomodation/otel_1.jpg);
     width: 100%;
     height: 50vh;
     border-radius: 20px;
@@ -17,7 +17,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .otel2_img {
-    background-image:url(/img/otel_2.jpg);
+    background-image:url(/img/accomodation/otel_2.jpg);
     width: 100%;
     height: 50vh;
     border-radius: 20px;
@@ -26,7 +26,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .otel3_img {
-    background-image:url(/img/otel_3.jpg);
+    background-image:url(/img/accomodation/otel_3.jpg);
     width: 100%;
     height: 50vh;
     border-radius: 20px;
@@ -35,7 +35,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .otel4_img {
-    background-image:url(/img/otel_4.jpg);
+    background-image:url(/img/accomodation/otel_4.jpg);
     width: 100%;
     height: 50vh;
     border-radius: 20px;
@@ -44,7 +44,7 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .otel5_img {
-    background-image:url(/img/otel_5.jpg);
+    background-image:url(/img/accomodation/otel_5.jpg);
     width: 100%;
     height: 50vh;
     border-radius: 20px;
