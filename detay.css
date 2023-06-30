@@ -1,66 +1,160 @@
-.content-detay
-{
+/********************************************* OTEL DETAY-START *****************************************************/
+.content-detay {
     width: 100%;
-    height: 400vh;
+    height: auto;
 }
-.row {
-    --bs-gutter-x: 0;
-}
-.detay-img-1
-{
-    background-image: url(/img/otel_1.jpg);
+
+.detay-genel {
     width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
+    height: 90%;
 }
-.detay-img-2
-{
-    background-image: url(/img/otel_1.jpg);
+
+.detay-gal-1 {
+    background-image: url(/img/gal-1.jpg);
     width: 100%;
     height: 35vh;
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
 }
-.detay-img-3
-{
-    background-image: url(/img/otel_1.jpg);
+
+.detay-gal-2 {
+    background-image: url(/img/gal-2.jpg);
     width: 100%;
     height: 35vh;
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
 }
-.detay-img-4
-{
-    background-image: url(/img/otel_1.jpg);
+
+.detay-gal-3 {
+    background-image: url(/img/gal-3.jpg);
     width: 100%;
     height: 35vh;
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
 }
-.detay-img-5
-{
-    background-image: url(/img/otel_1.jpg);
+
+.detay-gal-4 {
+    background-image: url(/img/gal-4.jpg);
     width: 100%;
     height: 35vh;
     background-position: center;
     background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
 }
-.detay-hour-img
-{
+
+.detay-gal-5 {
+    background-image: url(/img/gal-5.jpg);
     width: 100%;
-    height: 45vh;
-    background-image: url(/img/otel_2.jpg);
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
 }
-.detay-f1-img
-{
+
+.detay-gal-1:hover,
+.detay-gal-2:hover,
+.detay-gal-3:hover,
+.detay-gal-4:hover,
+.detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.detay-hour-img {
     width: 100%;
-    height: 45vh;
-    background-image: url(/img/otel_2.jpg);
+    height: 100%;
+    background-image: url(/img/service-hour.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
 }
-.detay-f2-img
-{
+
+.detay-f1-img {
     width: 100%;
-    height: 45vh;
-    background-image: url(/img/otel_3.jpg);
+    height: 100%;
+    background-image: url(/img/facility-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
 }
+
+.detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/facility-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/room-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/room-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/room-3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.detay-video {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.service-hour,
+.facility-1,
+.facility-2,
+.room-1,
+.room-2,
+.room-3 {
+    background: linear-gradient(135deg, #9affe9bd, #91ffc3cd);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.buybtn {
+    width: 50%;
+    height: 20%;
+    background-color: #3e7456;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.buybtn:hover {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    background-color: #62b889;
+    color: black;
+}
+
+/********************************************* OTEL DETAY-END *****************************************************/
