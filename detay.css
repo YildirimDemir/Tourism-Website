@@ -1,4 +1,4 @@
-/********************************************* OTEL DETAY-START *****************************************************/
+/********************************************* OTEL-DETAY-START *****************************************************/
 .content-detay {
     width: 100%;
     height: auto;
@@ -8,126 +8,6 @@
     width: 100%;
     height: 90%;
 }
-
-.detay-gal-1 {
-    background-image: url(/img/gal-1.jpg);
-    width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    transition: transform 0.3s ease;
-}
-
-.detay-gal-2 {
-    background-image: url(/img/gal-2.jpg);
-    width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    transition: transform 0.3s ease;
-}
-
-.detay-gal-3 {
-    background-image: url(/img/gal-3.jpg);
-    width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    transition: transform 0.3s ease;
-}
-
-.detay-gal-4 {
-    background-image: url(/img/gal-4.jpg);
-    width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    transition: transform 0.3s ease;
-}
-
-.detay-gal-5 {
-    background-image: url(/img/gal-5.jpg);
-    width: 100%;
-    height: 35vh;
-    background-position: center;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    transition: transform 0.3s ease;
-}
-
-.detay-gal-1:hover,
-.detay-gal-2:hover,
-.detay-gal-3:hover,
-.detay-gal-4:hover,
-.detay-gal-5:hover {
-    transform: scale(1.5);
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-
-.detay-hour-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/service-hour.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
-}
-
-.detay-f1-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/facility-1.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
-}
-
-.detay-f2-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(/img/facility-2.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
-}
-
-.detay-room1 {
-    width: 100%;
-    height: 50vh;
-    background-image: url(/img/room-1.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-
-.detay-room2 {
-    width: 100%;
-    height: 50vh;
-    background-image: url(/img/room-2.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-
-.detay-room3 {
-    width: 100%;
-    height: 50vh;
-    background-image: url(/img/room-3.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 50px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-}
-
 .detay-video {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -157,4 +37,609 @@
     color: black;
 }
 
-/********************************************* OTEL DETAY-END *****************************************************/
+/******************* HOTEL-1-DETAY-START *****************/
+.hotel1-detay-gal-1 {
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-gal-1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel1-detay-gal-2 {
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-gal-2.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel1-detay-gal-3 {
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-gal-3.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel1-detay-gal-4 {
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-gal-4.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel1-detay-gal-5 {
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-gal-5.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel1-detay-gal-1:hover,
+.hotel1-detay-gal-2:hover,
+.hotel1-detay-gal-3:hover,
+.hotel1-detay-gal-4:hover,
+.hotel1-detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel1-detay-hour-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-service-hour.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel1-detay-f1-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-facility-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel1-detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-facility-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel1-detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-room-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel1-detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-room-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel1-detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-1-detay/hotel1-room-3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/******************* HOTEL-1-DETAY-END *****************/
+
+/******************* HOTEL-2-DETAY-START *****************/
+.hotel2-detay-gal-1 {
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-gal-1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel2-detay-gal-2 {
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-gal-2.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel2-detay-gal-3 {
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-gal-3.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel2-detay-gal-4 {
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-gal-4.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel2-detay-gal-5 {
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-gal-5.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel2-detay-gal-1:hover,
+.hotel2-detay-gal-2:hover,
+.hotel2-detay-gal-3:hover,
+.hotel2-detay-gal-4:hover,
+.hotel2-detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel2-detay-hour-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-service-hour.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel2-detay-f1-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-facility-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel2-detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-facility-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel2-detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-room-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel2-detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-room-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel2-detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-2-detay/hotel2-room-3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/******************* HOTEL-2-DETAY-END *****************/
+
+/******************* HOTEL-3-DETAY-START *****************/
+.hotel3-detay-gal-1 {
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-gal-1.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel3-detay-gal-2 {
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-gal-2.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel3-detay-gal-3 {
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-gal-3.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel3-detay-gal-4 {
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-gal-4.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel3-detay-gal-5 {
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-gal-5.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel3-detay-gal-1:hover,
+.hotel3-detay-gal-2:hover,
+.hotel3-detay-gal-3:hover,
+.hotel3-detay-gal-4:hover,
+.hotel3-detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel3-detay-hour-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-service-hour.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel3-detay-f1-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-facility-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel3-detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-facility-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel3-detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-room-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel3-detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-room-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel3-detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-3-detay/hotel3-room-3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/******************* HOTEL-3-DETAY-END *****************/
+
+/******************* HOTEL-4-DETAY-START *****************/
+.hotel4-detay-gal-1 {
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-gal-1.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel4-detay-gal-2 {
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-gal-2.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel4-detay-gal-3 {
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-gal-3.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel4-detay-gal-4 {
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-gal-4.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel4-detay-gal-5 {
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-gal-5.png);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel4-detay-gal-1:hover,
+.hotel4-detay-gal-2:hover,
+.hotel4-detay-gal-3:hover,
+.hotel4-detay-gal-4:hover,
+.hotel4-detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel4-detay-hour-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-service-hour.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel4-detay-f1-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-facility-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel4-detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-facility-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel4-detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-room-1.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel4-detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-room-2.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel4-detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-4-detay/hotel4-room-3.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/******************* HOTEL-4-DETAY-END *****************/
+
+/******************* HOTEL-5-DETAY-START *****************/
+.hotel5-detay-gal-1 {
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-gal-1.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel5-detay-gal-2 {
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-gal-2.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel5-detay-gal-3 {
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-gal-3.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel5-detay-gal-4 {
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-gal-4.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel5-detay-gal-5 {
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-gal-5.jpg);
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    transition: transform 0.3s ease;
+}
+
+.hotel5-detay-gal-1:hover,
+.hotel5-detay-gal-2:hover,
+.hotel5-detay-gal-3:hover,
+.hotel5-detay-gal-4:hover,
+.hotel5-detay-gal-5:hover {
+    transform: scale(1.5);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel5-detay-hour-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-service-hour.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel5-detay-f1-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-facility-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel5-detay-f2-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-facility-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #00233eb6, -20px -20px 60px #00818da7;
+}
+
+.hotel5-detay-room1 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-room-1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel5-detay-room2 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-room-2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.hotel5-detay-room3 {
+    width: 100%;
+    height: 50vh;
+    background-image: url(/img/hotel-detay/hotel-5-detay/hotel5-room-3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+/******************* HOTEL-5-DETAY-END *****************/
+
+/********************************************* OTEL-DETAY-END *****************************************************/
