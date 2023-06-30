@@ -1,0 +1,246 @@
+.world-tour{
+    width: 100%;
+    min-height: 100vh;
+}
+.world-tour .world-tour-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4)url(tour-img/world-tour-hdr.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.world-tour-header h1{
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.world-tour-header p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.world-tour-content{
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+.world-tour-content .about-world-tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-world-tour h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.about-world-tour h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+}
+
+.about-world-tour ul li{
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+.about-world-tour ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.world-tour-transform{
+    width: 100%;
+    min-height: 50vh;
+}
+.world-tour-transform h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-transform h3::before{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.world-tour-transform h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.world-tour-transfom-type{
+    width: 100%;
+    min-height: 100vh;
+}
+.world-tour-transfom-type h4{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-transfom-type .world-tour-tr-img{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background: url(tour-img/world-tour-ship.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+     rgb(209, 213, 219) 0px 0px 0px 1px inset;
+     margin-bottom: 50px;
+}
+
+.world-tour-transfom-type ul{
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 2px solid #00fe72;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 7px -7px 5px #00fecf, -7px 7px 5px #00fe72;
+}
+
+.world-tour-transfom-type ul li{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.world-tour-transfom-type ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.world-tour-document{
+    width: 100%;
+    min-height: 130vh;
+    margin: 60px auto 0px auto;
+    padding: 20px;
+}
+.world-tour-document h4{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-document h4::before{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.world-tour-document h4::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 160px;
+}
+
+.world-tour-document ul{
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 2px solid #00fe72;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 7px -7px 5px #00fecf, -7px 7px 5px #00fe72;
+}
+
+.world-tour-document ul li{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.world-tour-document ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+.world-tour-document ul li span{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 1.4rem;
+}
+
+@media(max-width: 575px){
+    .about-world-tour h3{
+        font-size: 2.4rem;
+    }
+    .world-tour-transform h3{
+        font-size: 2.4rem;
+    }
+    .world-tour-transfom-type h4{
+        font-size: 2.4rem;
+    }
+    .world-tour-transfom-type ul li{
+        font-size: .9rem;
+    }
+    .world-tour-document ul li{
+        font-size: .9rem;
+    }
+}
