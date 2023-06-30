@@ -31,3 +31,5 @@ const validateEmail = function () {
 btnshowModal.addEventListener("click", validateEmail);
 btncloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
+
+// =====MODAL======

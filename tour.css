@@ -1,0 +1,167 @@
+.tours-header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.3)url(tour-img/tour-header-bg.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tours-header h1{
+    font-size: 4.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.tours{
+    width: 100%;
+    min-height: 50vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tour-text h3{
+    font-size: 3rem;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.tour-text ul li{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.tour-text{
+  background: none;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #111, #0077fe7f);
+  background-size: 200% 200%;
+  animation: bg 4s ease-in-out infinite;
+}
+@keyframes bg{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 50% 100%;}
+    100%{background-position: 0% 50%;}
+}
+
+.tour-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.tour-img p{
+font-size: 1.3rem;
+width: 100%;
+color: #fff;
+padding: 10px;
+top: 0;
+position: absolute;
+text-align: center;
+margin: 0px auto 0px auto;
+background: linear-gradient(135deg, #00fe7f86, #00f6fe9f);
+}
+
+.tour-img button{
+    width: 300px;
+    border-radius: 20px;
+    bottom: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 1.4rem;
+    margin: auto;
+    font-weight: 800;
+    background: #fff;
+    transition: .4s;
+}
+
+.tour-img button:hover{
+    transform: translateY(-5px);
+}
+
+.tour-img button a{
+    text-decoration: none;
+    color: #0094fe;
+}
+
+.t-world{
+    background-image: url(tour-img/tour-world-bg.jpeg);
+}
+
+.t-contident{
+    background-image: url(tour-img/tour-cond.jpeg);
+}
+
+.t-country{
+    background-image: url(tour-img/country-tour-bg.jpeg);
+}
+
+.t-city{
+    background-image: url(tour-img/tour-city-bg.jpeg);
+}
+
+@media(max-width: 768px){
+    .tour{
+        flex-direction: column;
+    }
+    .tour .tour-text{
+        width: 100%;
+    }
+    .tour .tour-img{
+        width: 100%;
+    }
+    .tours-header h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 375px){
+    .tour .tour-text h3{
+        font-size: 1.5rem;
+    }
+    .tour-text ul li{
+        font-size: 1rem;
+    }
+    .tour-img p{
+        font-size: 1rem;
+    }
+    .tour-img button{
+        width: 150px;
+        font-size: 1rem;
+    }
+}
