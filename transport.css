@@ -412,6 +412,86 @@
     color: white;
     text-shadow: 0 0 20px; 
 }
+@media screen and (max-width:1199px) {
+    .bck, .bck2, .bck3, .bck4 {
+        height: 400px;
+    }
+}
+@media screen and (max-width:436px) {
+    .bck, .bck2, .bck3, .bck4 {
+        height: 450px;
+    }
+}
+@media screen and (max-width:991px) {
+    .blr img {
+        display: none;
+    }
+    .blr2 img {
+        display: none;
+    }
+    .blr3 img {
+        display: none;
+    }
+    .blr4 img {
+        display: none;
+    }
+}
+@media screen and (max-width:900px) {
+    .btns {
+        flex-direction: column;
+    }
+    .btns button{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5remx;
+    }
+    .tle {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:575px) {
+    body {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .hdri {
+        height: 250px;
+        background-attachment: local;
+        background-position: center;
+    }
+    .bck {
+        background-attachment: local;
+    }
+    .bck2 {
+        background-attachment: local;
+    }
+    .bck3 {
+        background-attachment: local;
+    }
+    .bck4 {
+        background-attachment: local;
+    }
+}
+@media screen and (max-width:365px) {
+    .plane {
+        padding: 0;
+    }
+    .ship {
+        padding: 0;
+        text-align: end;
+    }
+    .bus {
+        padding: 0;
+    }
+    .train {
+        padding: 0;
+        text-align: end;
+    }
+}
+
+
+
 /*! Tickets CSS başlangıç */
 
 .tckh {
@@ -437,60 +517,57 @@
     background-size: cover;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 100%;
 } 
-.gnl {
-    padding-right: 35rem;
-    padding-left: 2rem;
-    margin-bottom: 2rem;
-}
-.gnl1 {
-    padding-right: 2rem;
-    padding-left: 35rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.gnl2 {
-    padding-right: 35rem;
-    padding-left: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.gnl3 {
-    padding-right: 2rem;
-    padding-left: 35rem;
-    margin-top: 2rem;
-}
 .planetck {
     border-radius: 20px;
-    height: 30vh;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 80rem;
     display: flex;
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .shiptck {
     border-radius: 20px;
-    height: 30vh;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 80rem;
     display: flex;
+    margin-right: 2rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .bustck {
     border-radius: 20px;
-    height: 30vh;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 80rem;
     display: flex;
+    margin-left: 2rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .traintck {
     border-radius: 20px;
-    height: 30vh;
+    height: fit-content;
     background-color: rgba(255, 255, 255, 0.315);
     backdrop-filter: blur(5px);
-    width: 100%;
+    width: 80rem;
     display: flex;
+    margin-right: 2rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 .box1-1, .box1-2, .box1-3, .box1-4  {
     align-items: center;
@@ -603,4 +680,91 @@
     color: #10914a;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+@media screen and (max-width:1500px) {
+    .planetck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .shiptck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bustck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .traintck {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:1285px) {
+    .hero-div img {
+        display: none;
+    }
+    .planetck {
+        width: 60vh;
+        height: 25vh;
+    }
+    .shiptck {
+        width: 60vh;
+        height: 25vh;
+    }
+    .bustck {
+        width: 60vh;
+        height: 25vh;
+    }
+    .traintck {
+        width: 60vh;
+        height: 25vh;
+    }
+}
+@media screen and (max-width:939px) {
+    .opt   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .opt button {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+@media screen and (max-width:647px) {
+    .planetck {
+        width: 45vh;
+    }
+    .shiptck {
+        width: 45vh;
+    }
+    .bustck {
+        width: 45vh;
+    }
+    .traintck {
+        width: 45vh;
+    }
+}
+@media screen and (max-width:570px) {
+    .tckh {
+        height: 20vh;
+    }
+}
+@media screen and (max-width:485px) {
+    .planetck {
+        width: 40vh;
+        scale: 0.8;
+    }
+    .shiptck {
+        width: 40vh;
+        scale: 0.8;
+    }
+    .bustck {
+        width: 40vh;
+        scale: 0.8;
+    }
+    .traintck {
+        width: 40vh;
+        scale: 0.8;
+    }
 }
