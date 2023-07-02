@@ -3106,3 +3106,21 @@ font-size: 25px;
     }
 }
 /********************************! Tickets-End  ****************************/
+
+
+.events{
+    width: 100%;
+    height: 200vh;
+    background: url(img/recep.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events h1{
+    font-size: 7rem;
+    color: orangered;
+}
