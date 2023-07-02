@@ -511,3 +511,1043 @@ form textarea::placeholder{
         font-size: .8rem;
     }
 }
+
+
+
+/* ABOUT  */
+
+
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.4)url(img/aboutus-bg.jpeg);
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about-content{
+    width: 80%;
+    height: 50vh;
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content h1{
+    font-size: 3rem;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.about-content p{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.about-content span{
+    font-size: 1.5rem;
+}
+
+@media(max-width:960px){
+.about-content h1{
+    font-size: 2rem;
+}
+.about-content p{
+    font-size: 1rem;
+}
+.about span{
+    font-size: 1.5rem;
+}
+}
+
+@media(max-width:640px){
+    .about-content h1{
+        font-size: 1.6rem;
+    }
+    .about-content p{
+        font-size: .8rem;
+    }
+    .about span{
+        font-size: 1rem;
+    }
+    .about .about-content{
+        height: 80vh;
+    }
+}
+
+@media(max-width:290px){
+    .about-content{
+        margin-top: 40px;
+    }
+
+    .about-content h1{
+        font-size: 1.4rem;
+    }
+    .about-content p{
+        font-size: .6rem;
+    }
+    .about span{
+        font-size: .9rem;
+    }
+    .about .about-content{
+        height: 80vh;
+    }
+}
+
+
+
+/* TOUR MAIN */
+
+
+.tours-header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.3)url(tour-img/tour-header-bg.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.tours-header h1{
+    font-size: 4.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.tours{
+    width: 100%;
+    min-height: 50vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tour-text h3{
+    font-size: 3rem;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.tour-text ul li{
+    width: 100%;
+    margin: auto;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.tour-text{
+  background: none;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #111, #0077fe7f);
+  background-size: 200% 200%;
+  animation: bg 4s ease-in-out infinite;
+}
+@keyframes bg{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 50% 100%;}
+    100%{background-position: 0% 50%;}
+}
+
+.tour-img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.tour-img p{
+font-size: 1.3rem;
+width: 100%;
+color: #fff;
+padding: 10px;
+top: 0;
+position: absolute;
+text-align: center;
+margin: 0px auto 0px auto;
+background: linear-gradient(135deg, #00fe7f86, #00f6fe9f);
+}
+
+.tour-img button{
+    width: 300px;
+    border-radius: 20px;
+    bottom: 0;
+    border: none;
+    outline: none;
+    height: 50px;
+    font-size: 1.4rem;
+    margin: auto;
+    font-weight: 800;
+    background: #fff;
+    transition: .4s;
+}
+
+.tour-img button:hover{
+    transform: translateY(-5px);
+}
+
+.tour-img button a{
+    text-decoration: none;
+    color: #0094fe;
+}
+
+.t-world{
+    background-image: url(tour-img/tour-world-bg.jpeg);
+}
+
+.t-contident{
+    background-image: url(tour-img/tour-cond.jpeg);
+}
+
+.t-country{
+    background-image: url(tour-img/country-tour-bg.jpeg);
+}
+
+.t-city{
+    background-image: url(tour-img/tour-city-bg.jpeg);
+}
+
+@media(max-width: 768px){
+    .tour{
+        flex-direction: column;
+    }
+    .tour .tour-text{
+        width: 100%;
+    }
+    .tour .tour-img{
+        width: 100%;
+    }
+    .tours-header h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width: 375px){
+    .tour .tour-text h3{
+        font-size: 1.5rem;
+    }
+    .tour-text ul li{
+        font-size: 1rem;
+    }
+    .tour-img p{
+        font-size: 1rem;
+    }
+    .tour-img button{
+        width: 150px;
+        font-size: 1rem;
+    }
+}
+
+
+/* TOUR WORLD */
+
+
+.world-tour{
+    width: 100%;
+    min-height: 100vh;
+}
+.world-tour .world-tour-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4)url(tour-img/world-tour-hdr.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.world-tour-header h1{
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.world-tour-header p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.world-tour-content{
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+.world-tour-content .about-world-tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0px 20px 0px;
+}
+
+.about-world-tour h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.about-world-tour h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+}
+
+.about-world-tour ul li{
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+.about-world-tour ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.world-tour-transform{
+    width: 100%;
+    min-height: 50vh;
+}
+.world-tour-transform h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-transform h3::before{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.world-tour-transform h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.world-tour-transfom-type{
+    width: 100%;
+    min-height: 100vh;
+}
+.world-tour-transfom-type h4{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-transfom-type .world-tour-tr-img{
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    background: url(tour-img/world-tour-ship.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+     rgb(209, 213, 219) 0px 0px 0px 1px inset;
+     margin-bottom: 50px;
+}
+
+.world-tour-transfom-type ul{
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 2px solid #00fe72;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 7px -7px 5px #00fecf, -7px 7px 5px #00fe72;
+}
+
+.world-tour-transfom-type ul li{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.world-tour-transfom-type ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.world-tour-document{
+    width: 100%;
+    min-height: 130vh;
+    margin: 60px auto 0px auto;
+    padding: 20px;
+}
+.world-tour-document h4{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 90px 0px 50px 0px;
+}
+
+.world-tour-document h4::before{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.world-tour-document h4::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 160px;
+}
+
+.world-tour-document ul{
+    width: 90%;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 2px solid #00fe72;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 7px -7px 5px #00fecf, -7px 7px 5px #00fe72;
+}
+
+.world-tour-document ul li{
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.world-tour-document ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+.world-tour-document ul li span{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 1.4rem;
+}
+
+@media(max-width: 575px){
+    .about-world-tour h3{
+        font-size: 2.4rem;
+    }
+    .world-tour-transform h3{
+        font-size: 2.4rem;
+    }
+    .world-tour-transfom-type h4{
+        font-size: 2.4rem;
+    }
+    .world-tour-transfom-type ul li{
+        font-size: .9rem;
+    }
+    .world-tour-document ul li{
+        font-size: .9rem;
+    }
+}
+
+
+/* TOUR COUNTRY */
+
+
+
+.country-tour{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.country-tour .country-tour-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4)url(tour-img/tour-country-hdr-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.country-tour-header h1{
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.country-tour-header p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.country-tour-content{
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+.country-tour-content .about-country-tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0px 20px 0px;
+}
+
+.about-country-tour h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+   margin: 50px 0px 50px 0px;
+}
+
+.about-country-tour h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+}
+
+.about-country-tour ul li{
+    font-size: 1.9rem;
+    color: #fff;
+    text-align: center;
+}
+
+.about-country-tour ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.country-tour-details{
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 50px;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.country-tour-details h4{
+    font-size: 3rem;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.country-tour-details ul{
+    width: 90%;
+    box-shadow: -8px -8px 5px #00fe72, 8px 8px 5px #00fecf;
+    padding: 20px;
+}
+.country-tour-details ul li{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.country-tour-details ul li span{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 1.1rem;
+}
+
+.country-tour-content .tour-flags{
+    width: 90%;
+}
+
+.country-tour-content .tour-flags h5{
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+    margin: 40px auto 20px auto;
+}
+
+.tour-flags h5 span{
+    font-size: 1rem;
+    color: #00fe72;
+}
+
+@media(max-width:575px){
+    .country-tour-header h1{
+        font-size: 3rem;
+    }
+    .country-tour-header p{
+        font-size: 1rem;
+    }
+    .about-country-tour h3{
+        font-size: 2rem;
+    }
+    .about-country-tour ul li{
+        font-size: 1.2rem;
+    } 
+    .country-tour-details h4{
+        font-size: 2rem;
+    }
+    .country-tour-content .tour-flags h5{
+        font-size: 1.5rem;
+    }
+    .tour-flags h5 span{
+        font-size: .7rem;
+    }
+}
+
+
+
+/* TOUR CONT */
+
+.continent-tour{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.continent-tour .continent-tour-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4)url(tour-img/continent-hd-bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.continent-tour-header h1{
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.continent-tour-header p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.continent-tour-content{
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+.continent-tour-content .about-continent-tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0px 20px 0px;
+}
+
+.about-continent-tour h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+   margin: 50px 0px 50px 0px;
+}
+
+.about-continent-tour h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+}
+
+.about-continent-tour ul li{
+    font-size: 1.9rem;
+    color: #fff;
+    text-align: center;
+}
+
+.about-continent-tour ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.seven-continents{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 20px;
+}
+
+.seven-continents h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.seven-continents .worlds-continent{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.worlds-continent .worlds-continent-img{
+    margin-top: 20px;
+    width: 50%;
+    height: 50vh;
+    margin: 50px auto 50px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: #00fe72 0px 1px 3px, #00fecf 0px 1px 2px;
+}
+
+.img-europe{
+    background-image: url(tour-img/cont-bg-euro.jpeg);
+}
+.img-asia{
+    background-image: url(tour-img/cont-asia.jpeg);
+}
+.img-africa{
+    background-image: url(tour-img/cont-africa.webp);
+}
+.img-sa{
+    background-image: url(tour-img/cont-sa.jpeg);
+}
+.img-na{
+    background-image: url(tour-img/cont-na.avif);
+}
+.img-aust{
+    background-image: url(tour-img/cont-aust.jpeg);
+}
+
+.worlds-continent h4{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.worlds-continent ul{
+    width: 90%;
+    box-shadow: -8px -8px 5px #00fe72, 8px 8px 5px #00fecf;
+    padding: 20px;
+}
+.worlds-continent ul li{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.worlds-continent ul li span{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 1.1rem;
+}
+
+@media(max-width:575px){
+    .continent-tour-header h1{
+        font-size: 3rem;
+    }
+    .continent-tour-header p{
+        font-size: 1rem;
+    }
+    .about-continent-tour h3{
+        font-size: 2rem;
+    }
+    .about-continent-tour ul li{
+        font-size: 1.2rem;
+    } 
+    .seven-continents h3{
+        font-size: 2.5rem;
+    }
+    .worlds-continent h4{
+        font-size: 2rem;
+    }
+    .worlds-continent ul li{
+        font-size: .8rem;
+    }
+    .worlds-continent .worlds-continent-img{
+        width: 80%;
+    }
+}
+
+
+/* TOUR CITY */
+
+
+.city-tour{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.city-tour .city-tour-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.4)url(tour-img/tour-city-hdr-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.city-tour-header h1{
+    width: 90%;
+    font-size: 4.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.city-tour-header p{
+    font-size: 1.4rem;
+    color: #fff;
+    width: 80%;
+    text-align: center;
+}
+
+.city-tour-content{
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+}
+
+.city-tour-content .about-city-tour{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 90px 0px 20px 0px;
+}
+
+.about-city-tour h3{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+   margin: 50px 0px 50px 0px;
+}
+
+.about-city-tour h3::after{
+    content: "";
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    height: 4px;
+    margin-top: 30px;
+}
+
+.about-city-tour ul li{
+    font-size: 1.9rem;
+    color: #fff;
+    text-align: center;
+}
+
+.about-city-tour ul li::selection{
+    background: #00fe72;
+    color: #222;
+}
+
+.city-tour-details{
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 50px;
+    padding: 50px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.city-tour-details h4{
+    font-size: 3rem;
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.city-tour-details ul{
+    width: 90%;
+    box-shadow: -8px -8px 5px #00fe72, 8px 8px 5px #00fecf;
+    padding: 20px;
+}
+.city-tour-details ul li{
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.city-tour-details ul li span{
+    background: linear-gradient(135deg, #00fecf, #00fe72);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 1.1rem;
+}
+
+@media(max-width:575px){
+    .city-tour-header h1{
+        font-size: 3rem;
+    }
+    .city-tour-header p{
+        font-size: 1rem;
+    }
+    .about-city-tour h3{
+        font-size: 2rem;
+    }
+    .about-city-tour ul li{
+        font-size: 1.2rem;
+    } 
+    .city-tour-details h4{
+        font-size: 2rem;
+    }
+}
+
+
+
+/* BURADAN DEVAM EDIN */
