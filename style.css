@@ -243,14 +243,15 @@ form textarea::placeholder{
 }
 
 .showModal{
-    width: 80%;
+    width: 60%;
     margin: auto;
     background: #fff;
     color: #fff;
     color: #000;
     border: none;
     outline: none;
-    height: 30px;
+    height: 40px;
+    border-radius: 10px;
     margin: 10px auto 10px auto;
 }
 
