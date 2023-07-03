@@ -2334,7 +2334,7 @@ font-size: 25px;
 /******************* HOTEL-5-DETAY-END *****************/
 
 /********************************************* OTEL-DETAY-END *****************************************************/
-/*************************! Tours-Start  ***************************/
+/*************************! Transport-Start  ***************************/
 .hdri {
     background-image:linear-gradient(to top, rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.541)), url(img-transport/transport-header.jpg);
     background-attachment: fixed;
@@ -2376,7 +2376,7 @@ font-size: 25px;
     justify-content: center;
     z-index: 1;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .blr {
@@ -2421,7 +2421,7 @@ font-size: 25px;
     justify-content: center;
     z-index: 1;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .blr2 {
@@ -2518,7 +2518,7 @@ font-size: 25px;
     justify-content: center;
     z-index: 1;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .blr3 {
@@ -2566,7 +2566,7 @@ font-size: 25px;
     justify-content: center;
     z-index: 1;
     align-items: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .blr4 {
@@ -2619,6 +2619,7 @@ font-size: 25px;
     background-repeat: no-repeat;   
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 350px;
     display: flex;
     justify-content: center;
